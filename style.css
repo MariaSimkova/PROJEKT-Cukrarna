@@ -33,3 +33,33 @@ body {
 	margin: 0;
 }
 
+header,
+footer {
+	padding-top: 30px;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Playfair Display', serif;
+	line-height: 1.25;
+}
+
+h1 {
+	font-size: 52px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+p {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
