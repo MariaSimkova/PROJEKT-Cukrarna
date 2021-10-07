@@ -95,7 +95,7 @@ footer {
 }
 
 .container,
-.container-banner {
+.hero-banner {
 	flex-basis: 1100px;
 }
 
@@ -191,7 +191,7 @@ li {
 
 /* TODAY */
 
-.grey {
+.today-offer {
 	background-color: #f0f0f0;
 }
 
