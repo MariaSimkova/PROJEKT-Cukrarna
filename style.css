@@ -53,6 +53,7 @@ h1 {
 
 h2 {
 	font-size: 36px;
+	color: #3e606b;
 }
 
 h3 {
@@ -60,6 +61,7 @@ h3 {
 }
 
 p {
+	font-size: 16px;
 	margin: 15px 30px 15px 0;
 }
 
@@ -133,13 +135,12 @@ li {
 
 
 
-/* BANNER
-   Solve background image size
-*/
+/* BANNER*/
 
 .banner {
 	background-image: url(images/cupcake.jpg);
 	background-size: 100%;
+	background-repeat: no-repeat;
 	color:white;
 }
 
@@ -209,6 +210,7 @@ li {
 
 .product {
 	background-color: white;
+	box-shadow: 5px 5px 5px rgb(224, 223, 223);
 	border-radius: 5px;
 	width: 252.5px;
 	display: flex;
