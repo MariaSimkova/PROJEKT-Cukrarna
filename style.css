@@ -188,7 +188,7 @@ li {
 /* WELCOME END */
 
 
-/* TODAY
+/* TODAY */
 
 .grey {
 	background-color: #f0f0f0;
@@ -204,6 +204,23 @@ li {
 }
 
 .product-photo {
-	width: 252.5px;
+	border-radius: 5px 5px 0 0;
+	}
+
+.product {
+	background-color: white;
 	border-radius: 5px;
-} */
+	width: 252.5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.product-text {
+	padding: 20px;
+}
+
+.product-text p {
+	font-size: 14px;
+}
+
+/* TODAY END */
