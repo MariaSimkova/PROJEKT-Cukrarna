@@ -131,7 +131,6 @@ li {
 
 
 
-
 /* BANNER
    Solve background image size
 */
@@ -141,7 +140,6 @@ li {
 	background-size: 100%;
 	color:white;
 }
-
 
 .banner p {
 	font-size: 24px;
@@ -172,7 +170,6 @@ li {
 	border-radius: 30px;
 	padding: 15px 40px;
 	margin-top: 30px;
-
 }
 
 .welcome-button:hover {
@@ -186,6 +183,7 @@ li {
 }
 
 /* WELCOME END */
+
 
 
 /* TODAY */
@@ -226,6 +224,7 @@ li {
 /* TODAY END */
 
 
+
 /* APPROACH */
 
 .approach {
@@ -241,3 +240,16 @@ li {
 .approach-text {
 	padding-left: 30px;
 }
+
+/* APPROACH END */
+
+
+
+/* FOOTER */
+
+footer {
+	background-color: #303339;
+	color: white;
+}
+
+/* FOOTER END */
