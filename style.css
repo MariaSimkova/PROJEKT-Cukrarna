@@ -44,6 +44,7 @@ h2,
 h3 {
 	font-family: 'Playfair Display', serif;
 	line-height: 1.25;
+	margin-top: 0;
 }
 
 h1 {
@@ -56,6 +57,10 @@ h2 {
 
 h3 {
 	font-size: 18px;
+}
+
+p {
+	margin: 15px 30px 15px 0;
 }
 
 a {
@@ -154,16 +159,19 @@ li {
 
 /* WELCOME */
 
-.welcome-text p {
-	padding: 0 30px 30px 0;
-	margin: 0;
+.welcome-text {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
 }
 
 .welcome-button {
+	display: inline;
 	color: white;
 	background-color: #f195b2;
 	border-radius: 30px;
 	padding: 15px 40px;
+	margin-top: 30px;
 
 }
 
@@ -180,3 +188,22 @@ li {
 /* WELCOME END */
 
 
+/* TODAY
+
+.grey {
+	background-color: #f0f0f0;
+}
+
+.today {
+	flex-direction: column;
+}
+
+.today-photos {
+	display: flex;
+	justify-content: space-between;
+}
+
+.product-photo {
+	width: 252.5px;
+	border-radius: 5px;
+} */
