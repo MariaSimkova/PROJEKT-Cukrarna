@@ -103,9 +103,7 @@ footer {
 
 
 
-/* NAVIGATION BAR:
-   solve the hover issue 
-*/
+/* NAVIGATION BAR*/
 
 .navigation {
 	display: flex;
@@ -124,6 +122,10 @@ ul {
 
 li {
 	list-style: none;
+	/* padding: 10px 15px; */
+}
+
+.navigation a {
 	padding: 10px 15px;
 }
 
