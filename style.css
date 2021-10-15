@@ -147,11 +147,12 @@ li {
 .banner p {
 	font-size: 24px;
 	font-style: italic;
-	padding-right: 40%;
 }
 
+.banner p,
 .banner h1 {
-	padding-right: 40%;
+	/* padding-right: 40%; */
+	width: 60%;
 }
 
 /* BANNER END */
